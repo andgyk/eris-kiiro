@@ -9,7 +9,7 @@
     "typings"
   ],
   "scripts": {
-    "dev": "coffee -o, src -w -c ./main/",
+    "dev": "coffee -o src -w -c ./main/",
     "build": "coffee -o src -c ./main/",
     "build:esm": "gen-esm-wrapper . ./src/index.mjs",
     "prepublishOnly": "yarn build && yarn build:esm"
