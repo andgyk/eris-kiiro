@@ -41,11 +41,11 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
-typings/
-
 # TypeScript cache
 *.tsbuildinfo
+
+# Coffee build files
+src/
 
 # Optional npm cache directory
 .npm
@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# test directories
+test/
